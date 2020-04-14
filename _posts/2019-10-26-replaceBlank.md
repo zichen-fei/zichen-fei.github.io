@@ -5,11 +5,20 @@ date: 2019-10-25
 tags: 算法
 ---
 
-[源码链接](https://github.com/zichen-fei/algorithm/blob/master/src/com/feizc/ReplaceBlank.java)
+#### [源码链接](https://github.com/zichen-fei/algorithm/blob/master/src/com/feizc/ReplaceBlank.java)
 
 ### **题目描述**
 
 请实现一个函数，把字符串 s 中的每个空格替换成"%20"。
+
+输入
+```
+s = "We are happy."
+```
+输出
+```
+"We%20are%20happy."
+```
 
 ### **方法一: 借助辅助数组**
 

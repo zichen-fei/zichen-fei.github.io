@@ -61,8 +61,6 @@ public void PrintBTree(BinaryTree<T> root){
 ### **方法二：**
 利用队列，先将上层节点入队，节点出队的时候将其孩子节点入队，这样就可以达到按层入队出队的效果。
 要打印某一层，可以在出队的时候一层一层的出，同时计算出队的次数，就可以判断出当前是哪一层
-![](http://img.blog.csdn.net/20170911205044854?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRkZGRkZGRlpaQ0ND/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
-![这里写图片描述](http://img.blog.csdn.net/20170911205135288?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvRkZGRkZGRlpaQ0ND/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/SouthEast)
 
 代码如下
 ```
