@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Java GC算法
-date: 2019-11-02
+date: 2019-11-08
 tags: JVM
 ---
 
