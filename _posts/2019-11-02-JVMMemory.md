@@ -2,7 +2,7 @@
 layout: post
 title: Java内存区域
 date: 2019-11-02
-tags: Java
+tags: JVM
 ---
 
 ### **运行时数据区**
