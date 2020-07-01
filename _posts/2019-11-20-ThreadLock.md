@@ -128,4 +128,7 @@ public String concatString(String s1, String s2, String s3) {
 
 #### **轻量级锁**
 
+> 对象头的内存布局：
+
+
 #### **偏向锁**
