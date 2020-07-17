@@ -5,7 +5,7 @@ description: 欢迎来到我的个人博客~
 # 头像里面的标题
 avatarTitle:
 # 头像里面的描述
-avatarDesc: Java / 后端开发
+avatarDesc:
 url: "https://feizichen.me"
 
 # Comment
@@ -19,12 +19,12 @@ social:
     github: zichen-fei
     twitter: 
     mail: mail@feizichen.me
-    zhihu: William
+    zhihu:
 
 # 百度统计 
 # 使用博客模板请去掉或者更换 id 
 baidu:
-    id: fdc5ceaf5ebd628f4694cf7bd4d03208  
+    id: fdc5ceaf5ebd628f4694cf7bd4d03208
 
 # Google Analytics
 # 使用博客模板请去掉或者更换 id
