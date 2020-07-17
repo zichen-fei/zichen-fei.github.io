@@ -2,7 +2,7 @@
 layout: post
 title: Kafka-文件存储机制
 date: 2019-12-07
-tags: 大数据,Kafka
+tags: Kafka
 ---
 
 Kafka 中消息是以 topic 进行分类的，生产者通过 topic 向 Kafka broker 发送消息，消费者通过 topic 读取数据。topic 在物理层面又能以 partition 为分组，

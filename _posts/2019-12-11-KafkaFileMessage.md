@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Kafka-文件存储机制
+title: Kafka-message格式
 date: 2019-12-07
-tags: 大数据,Kafka
+tags: Kafka
 ---
 
 Kafka根据topic（主题）对消息进行分类，发布到Kafka集群的每条消息都需要指定一个topic，每个topic将被分为多个partition（分区）。

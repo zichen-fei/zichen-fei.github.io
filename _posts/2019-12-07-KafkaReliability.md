@@ -2,7 +2,7 @@
 layout: post
 title: Kafka-数据可可靠性和一致性
 date: 2019-12-07
-tags: 大数据,Kafka
+tags: Kafka
 ---
 
 ### **Partition Recovery机制**

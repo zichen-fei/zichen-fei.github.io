@@ -2,7 +2,7 @@
 layout: post
 title: Kafka-partitions/replicas分配策略
 date: 2019-12-07
-tags: 大数据,Kafka
+tags: Kafka
 ---
 
 为了更好的做负载均衡，Kafka尽量将所有的Partition均匀分配到整个集群上。Kafka分配Replica的算法如下：
