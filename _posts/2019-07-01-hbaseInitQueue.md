@@ -1,8 +1,8 @@
 ---
 layout: post
-title: Hbase队列
+title: HBase队列
 date: 2019-06-15
-tags: Hbase
+tags: HBase
 ---
 
 HRegionServer
