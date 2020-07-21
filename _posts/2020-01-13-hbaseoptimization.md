@@ -5,7 +5,7 @@ date: 2020-01-13
 tags: HBase
 ---
 
-hbase.regionserver.handler.count
+#### **hbase.regionserver.handler.count**
 
 默认值：10
 
@@ -20,7 +20,7 @@ hbase.regionserver.handler.count
 如果server的region数量很少，大量的请求都落在一个region上，因快速充满memstore触发flush导致的读写锁会影响全局TPS，不是IO线程数越高越好。
 
 
-hbase.hregion.max.filesize
+#### **hbase.hregion.max.filesize**
 
 默认值：256M
 
@@ -45,7 +45,7 @@ compaction是无法避免的，split可以从自动调整为手动。
 
 内存方面，小region在设置memstore的大小值上比较灵活，大region则过大过小都不行，过大会导致flush时app的IO wait增高，过小则因store file过多影响读性能。
 
-hbase.regionserver.global.memstore.upperLimit/lowerLimit
+#### **hbase.regionserver.global.memstore.upperLimit/lowerLimit**
 
 默认值：0.4/0.35
 
@@ -65,7 +65,7 @@ lowerLimit说明： 同upperLimit，只不过lowerLimit在所有region的memstor
 如果在高压情况下，也没超过这个阀值，那么建议你适当调小这个阀值再做压测，确保触发次数不要太多，然后还有较多Heap余量的时候，调大hfile.block.cache.size提高读性能。
 还有一种可能性是 hbase.hregion.memstore.flush.size保持不变，但RS维护了过多的region，要知道 region数量直接影响占用内存的大小。
 
-hbase.hstore.blockingStoreFiles
+#### **hbase.hstore.blockingStoreFiles**
 
 默认值：7
 
@@ -76,7 +76,7 @@ hbase.hstore.blockingStoreFiles
 block写请求会严重影响当前regionServer的响应时间，但过多的storefile也会影响读性能。为了获取较平滑的响应时间，
 可将值设为无限大。如果能容忍响应时间出现较大的波峰波谷，那么默认或根据自身场景调整即可。
 
-hbase.hregion.majorcompaction
+#### **hbase.hregion.majorcompaction**
 
 默认值：86400000（1d）
 
