@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Kafka-数据可可靠性和一致性
+title: Kafka-数据可靠性和一致性
 date: 2019-12-09
 tags: Kafka
 ---
