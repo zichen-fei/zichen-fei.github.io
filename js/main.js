@@ -2,7 +2,7 @@ $(document).ready(function() {
 
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
-    if (location.hash && location.hash == "#blog") return;
+    if (location.hash && location.hash === "#blog") return;
     if ($('.panel-cover').hasClass('panel-cover--collapsed')) return;
     $('.main-post-list').removeClass('hidden');
     currentWidth = $('.panel-cover').width();
@@ -16,17 +16,17 @@ $(document).ready(function() {
     
   });
 
-  
-  if (window.location.hash) {
-    window.location.href="http://feizichen.me/#blog";
+  var localUrl = window.location.href;
+  if (localUrl === "https://feizichen.me") {
+    window.location.href="https://feizichen.me/#blog";
   }
 
-  if (window.location.hash && window.location.hash == "#blog") {
+  if (window.location.hash && window.location.hash === "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
   }
 
-  if (window.location.pathname.substring(0, 5) == "/tag/") {
+  if (window.location.pathname.substring(0, 5) === "/tag/") {
     $('.panel-cover').addClass('panel-cover--collapsed');
   }
 
