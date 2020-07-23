@@ -1,5 +1,6 @@
 $(document).ready(function() {
 
+  window.location.href="http://feizichen.me/#blog";
 
   $('a.blog-button').click(function() {
     // If already in blog, return early without animate overlay panel again.
@@ -17,7 +18,7 @@ $(document).ready(function() {
     
   });
 
-  if (window.location.hash && window.location.hash == "") {
+  if (window.location.hash && window.location.hash == "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
     $('.main-post-list').removeClass('hidden');
   }
