@@ -16,6 +16,7 @@ $(document).ready(function() {
     
   });
 
+  
   if (window.location.hash) {
     window.location.href="http://feizichen.me/#blog";
   }
