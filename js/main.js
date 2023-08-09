@@ -17,8 +17,7 @@ $(document).ready(function() {
   });
 
   var localUrl = window.location.href;
-  if (localUrl === "https://feizichen.me/" || localUrl === "http://feizichen.me/"
-   || localUrl === "https://feizichen.me" || localUrl === "http://feizichen.me") {
+  if (localUrl === "https://feizichen.me") {
     window.location.href="https://feizichen.me/#blog";
   }
 
