@@ -17,9 +17,9 @@ $(document).ready(function() {
   });
 
   var localUrl = window.location.href;
-  // if (localUrl === "https://feizichen.me") {
-  //   window.location.href="https://feizichen.me/#blog";
-  // }
+   if (localUrl === "https://feizichen.me") {
+     window.location.href="https://feizichen.me/archive/";
+   }
 
   if (window.location.hash && window.location.hash === "#blog") {
     $('.panel-cover').addClass('panel-cover--collapsed');
