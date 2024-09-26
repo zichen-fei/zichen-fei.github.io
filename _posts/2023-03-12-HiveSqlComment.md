@@ -1,7 +1,7 @@
 ---
 layout: post
 title: HiveSQL注释问题排查
-date: 2023-03-02
+date: 2023-03-12
 tags: Hive
 ---
 
